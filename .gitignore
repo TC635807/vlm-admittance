@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 .venv/
 MUJOCO_LOG.TXT
+
+# docs 里的演示素材必须进仓库：根 .gitignore 忽略了 *.mp4 / *.gif，
+# 这里按目录白名单反选回来（README 靠它们显示演示）。
+!docs/media/*.mp4
+!docs/media/*.gif
