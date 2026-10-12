@@ -1,0 +1,7 @@
+mujoco>=3.2
+numpy>=1.26
+scipy>=1.11
+pillow>=10.0
+
+# 可选：使用官方 OpenAI SDK 时安装；不装则 agent.vlm_client 走标准库 urllib
+# openai>=1.40

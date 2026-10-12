@@ -1,0 +1,6 @@
+outputs/
+config.local.json
+__pycache__/
+*.pyc
+.venv/
+MUJOCO_LOG.TXT
