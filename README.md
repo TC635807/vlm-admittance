@@ -1,4 +1,22 @@
+<div align="center">
+
 # VLM Admittance
+
+**多模态大模型决策 + RRT-Connect 规划 + 六维导纳控制的 MuJoCo 机械臂抓取框架**
+
+UR5e + Robotiq 2F85 · 3 相机离屏渲染 · 任意 OpenAI 兼容多模态端点 · 不需要训练 VLA
+
+![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white)
+![MuJoCo](https://img.shields.io/badge/MuJoCo-3.12-0E7C86?style=flat-square)
+![Robot](https://img.shields.io/badge/UR5e%20%2B%20Robotiq%202F85-Menagerie-4B5563?style=flat-square)
+![VLM](https://img.shields.io/badge/VLM-OpenAI%20compatible-8A2BE2?style=flat-square)
+![No training](https://img.shields.io/badge/VLA-不需要训练-2E7D32?style=flat-square)
+
+[演示](#演示) · [安装](#安装) · [使用方法](#使用方法) · [结果](#结果) · [已知问题](#已知问题)
+
+</div>
+
+---
 
 MuJoCo 里的 UR5e + Robotiq 2F85 抓取框架。上层用支持图片输入的多模态大模型做任务级决策
 （抓哪个、放到哪、多柔、失败了怎么改），底层是自己写的经典控制：DLS IK、笛卡尔 min-jerk
